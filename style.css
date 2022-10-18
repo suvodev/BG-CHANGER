@@ -1,5 +1,5 @@
 body {
-	font: 'Raleway', sans-serif;
+	font: 'Poppins', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -9,13 +9,25 @@ body {
 }
 
 button {
-	width: 136px;
-	height: 28px;
+	/* width: 136px; */
+	/* height: 28px; */
 	vertical-align: top;
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+      
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
+    font: 600 3.5em 'Poppins', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -24,7 +36,7 @@ h1 {
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+	font: 900 1em 'Poppins', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
